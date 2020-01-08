@@ -1,3 +1,65 @@
 body {
 	font-family: 'Fira Sans', 'Arial', sans-serif;
+	color: #616161;
+
+}
+
+button {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-style: normal;
+	font-weight: 700;
+	color: #151515; 
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+
+}
+
+.nav {
+	padding-top: 50px;
+}
+
+.search {
+	background-color: transparent;
+	border: none;
+}
+
+.menu {
+	background-color: transparent;
+	border: none;
+}
+
+.offer-content__title {
+	letter-spacing: 1px;
+	font-size: 60px;
+}
+
+.offer-content__text {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	margin: 30px 0 56px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #3726f2;
+	letter-spacing: 4px;
+	padding: 16px 26px;
+	border-radius: 0;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background-color: #1909c8;
+	color: #ffffff;
 }
