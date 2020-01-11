@@ -180,3 +180,80 @@ h1, h2, h3, h4, h5, h6 {
 .service__list--left {
 	margin-left: 40px;
 }
+
+.slider {
+	position: relative;
+}
+
+.slick-active {
+	outline: none;
+}
+
+.slider-arrows {
+	position: absolute;
+	bottom: -100px;
+	z-index: 999;
+	width: 50px;
+	font-size: 25px;
+	height: 50px;
+	padding: 17px;
+	color: #ffffff;
+	background-color: #c4c4c4;
+	cursor: pointer;
+}
+.arrows-left {
+	left: 0;
+	cursor: pointer;
+}
+
+.arrows-right {
+	left: 75px;
+}
+
+.slider {
+	margin-bottom: 100px;
+	margin-top: 90px;
+}
+
+.slider-arrows:hover {
+	cursor: pointer;
+}
+
+.slick-dots li button:before {
+  width: 21px;
+  height: 7px;
+  color: transparent;
+  background-color: #848282;
+  border-radius: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  background-color: red;
+  color: transparent;
+}
+
+.slick-dots {
+	top: 50%;
+	bottom: 0;
+  right: -90px;
+  width: 100px;
+  height: 25px;
+  transform: rotate(90deg);
+}
+
+.slick-slide {
+	position: relative;
+}
+
+.slider__play {
+	display: block;
+	background: url('../img/btn_video.svg');
+	position: absolute;
+	width: 65px;
+  height: 65px;
+	left: 50%;
+	top: 50%;
+	margin-left: -32px;
+	margin-top: -32px;
+	cursor: pointer;
+}
